@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Sales Report</title></head>
+<body>
+  <h2>Sales Report</h2>
+  <table border="1" cellspacing="0" cellpadding="4">
+    <tr>
+      <th>Produce</th><th>Buyer</th><th>Tonnage</th><th>Amount Paid</th><th>Date</th>
+    </tr>
+    {% for sale in sales %}
+    <tr>
+      <td>{{ sale.produce.name }}</td>
+      <td>{{ sale.buyer.name }}</td>
+      <td>{{ sale.tonnage }}</td>
+      <td>{{ sale.amount_paid }}</td>
+      <td>{{ sale.date }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>

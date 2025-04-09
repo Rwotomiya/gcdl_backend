@@ -1,0 +1,38 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+gcdl_env/
+
+# Django specific
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.env
+
+# Media and static files
+/media/
+/staticfiles/
+
+# VS Code settings
+.vscode/
+
+# IDE specific
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Pipenv and virtualenv
+Pipfile
+Pipfile.lock
+.env
+venv/
